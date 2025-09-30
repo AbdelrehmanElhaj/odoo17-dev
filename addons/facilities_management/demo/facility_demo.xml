@@ -1,2 +1,55 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<odoo/>
+<odoo>
+    <!-- Facilities -->
+    <record id="facility_hq" model="facilities_management.facility">
+        <field name="name">Headquarters</field>
+        <field name="location">Riyadh</field>
+    </record>
+
+    <!-- Buildings -->
+    <record id="building_hq" model="facilities_management.building">
+        <field name="name">Main Office Building</field>
+        <field name="facility_id" ref="facility_hq"/>
+    </record>
+
+    <!-- Floors -->
+    <record id="floor_hq_g" model="facilities_management.floor">
+        <field name="name">Ground Floor</field>
+        <field name="building_id" ref="building_hq"/>
+    </record>
+
+    <!-- Rooms -->
+    <record id="room_meeting_101" model="facilities_management.room">
+        <field name="name">Meeting Room 101</field>
+        <field name="floor_id" ref="floor_hq_g"/>
+        <field name="capacity">12</field>
+    </record>
+
+    <!-- Assets -->
+    <record id="asset_ac_unit" model="facilities_management.asset">
+        <field name="name">Daikin VRV AC Unit</field>
+        <field name="category_id" ref="facilities_management.asset_category_hvac"/>
+        <field name="facility_id" ref="facility_hq"/>
+    </record>
+
+    <!-- Maintenance Team -->
+    <record id="team_hvac" model="facilities_management.maintenance_team">
+        <field name="name">HVAC Technicians</field>
+    </record>
+
+    <!-- Work Order -->
+    <record id="workorder_ac" model="facilities_management.maintenance_workorder">
+        <field name="name">AC Preventive Maintenance</field>
+        <field name="asset_id" ref="asset_ac_unit"/>
+        <field name="team_id" ref="team_hvac"/>
+        <field name="status">scheduled</field>
+    </record>
+
+    <!-- Booking -->
+    <record id="booking_meeting" model="facilities_management.space_booking">
+        <field name="room_id" ref="room_meeting_101"/>
+        <field name="employee_id" ref="hr.employee_admin"/>
+        <field name="date_start">2025-10-01 10:00:00</field>
+        <field name="date_end">2025-10-01 12:00:00</field>
+        <field name="state">confirmed</field>
+    </record>
+</odoo>
