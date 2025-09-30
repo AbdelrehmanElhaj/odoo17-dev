@@ -1,0 +1,4108 @@
+
+
+
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_performance__performance_status
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_asset_performance_search
+msgid "Performance Status"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facilities_sla_form
+msgid "Performance Targets"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.ui.menu,name:facilities_management.menu_asset_performance_item
+msgid "Performance Tracking"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.constraint,message:facilities_management.constraint_facilities_asset_performance_unique_asset_date_shift
+msgid "Performance record already exists for this asset, date, and shift!"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_depreciation__period_end
+msgid "Period End"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_depreciation__period_start
+msgid "Period Start"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/workorder_permit.py:0
+#, python-format
+msgid ""
+"Permit '%s' for Work Order '%s' is expiring on %s. Please take necessary "
+"action."
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/workorder_permit.py:0
+#, python-format
+msgid "Permit Approval Required"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/workorder_permit.py:0
+#: model:ir.actions.server,name:facilities_management.ir_cron_permit_expiry_reminder_ir_actions_server
+#, python-format
+msgid "Permit Expiry Reminder"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder_permit__name
+msgid "Permit Name"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_facility__permit_numbers
+msgid "Permit Numbers"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder_permit__permit_type
+msgid "Permit Type"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/workorder_permit.py:0
+#, python-format
+msgid "Permit approved by Facility Manager."
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/workorder_permit.py:0
+#: code:addons/facilities_management/models/workorder_permit.py:0
+#, python-format
+msgid "Permit is not awaiting manager approval."
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/workorder_permit.py:0
+#, python-format
+msgid "Permit is not in 'Requested' stage!"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/workorder_permit.py:0
+#, python-format
+msgid "Permit rejected by Facility Manager. Reason: %s"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder__permit_ids
+#: model:ir.ui.menu,name:facilities_management.menu_maintenance_permits
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_workorder_form
+msgid "Permits"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_workorder_form
+msgid "Personnel & Scheduled Dates"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_facility__phone
+msgid "Phone Number"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facility_asset_form
+msgid "Physical Condition"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facility_asset_form
+msgid "Physical Location"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.actions.act_window,help:facilities_management.action_maintenance_calendar_enhanced
+msgid "Plan your asset maintenance schedules"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__asset_maintenance_schedule__status__planned
+#: model:ir.model.fields.selection,name:facilities_management.selection__predictive_maintenance__status__planned
+msgid "Planned"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.ui.menu,name:facilities_management.menu_maintenance_planning
+msgid "Planning"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/workorder_permit.py:0
+#, python-format
+msgid "Please approve permit '%s' for work order '%s'."
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/workorder_sla_integration.py:0
+#, python-format
+msgid "Please assign technicians before starting time tracking."
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/asset_scan_wizard.py:0
+#, python-format
+msgid "Please enter a code to search."
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/asset_scan_wizard.py:0
+#, python-format
+msgid "Please enter a sensor reading value."
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/space_booking.py:0
+#, python-format
+msgid "Please enter a valid email address."
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/asset_scan_wizard.py:0
+#, python-format
+msgid "Please enter or scan a code first."
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/asset_disposal_wizard.py:0
+#, python-format
+msgid "Please fill in all required fields before submitting for approval."
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_booking_reject_wizard_form
+msgid "Please provide a detailed reason for rejecting this booking..."
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/booking_reject_wizard.py:0
+#, python-format
+msgid "Please provide a reason for rejection."
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/workorder_permit.py:0
+#, python-format
+msgid "Please provide a rejection reason before rejecting the permit."
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/space_booking.py:0
+#, python-format
+msgid "Please provide a template name."
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/asset_scan_wizard.py:0
+#, python-format
+msgid "Please select an inspection result."
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_space_booking_form
+msgid "Please share your feedback about the booking..."
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/facilities_import_wizard.py:0
+#, python-format
+msgid "Please upload a file to import."
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset__condition__poor
+msgid "Poor"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset_performance__performance_status__poor
+msgid "Poor (<60%)"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facilities_asset_search
+msgid "Poor Health"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_asset_performance_search
+msgid "Poor Performance"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_room_equipment_kanban
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_room_equipment_search
+msgid "Portable"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_room_equipment__is_portable
+msgid "Portable Equipment"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_space_booking__portal_access_token
+msgid "Portal Access Token"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_space_booking_form
+msgid "Portal View"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset_depreciation__state__posted
+msgid "Posted"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.asset_sensor_search_view
+msgid "Power"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset_sensor__sensor_type__power
+msgid "Power Consumption"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset__power_consumption
+msgid "Power Consumption (kW)"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_room_equipment__power_requirements
+msgid "Power Requirements"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_room_equipment_form
+msgid "Power requirements..."
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset__next_failure_prediction
+msgid "Predicted Next Failure"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset__prediction_confidence
+msgid "Prediction Confidence (%)"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__asset_maintenance_schedule__maintenance_type__predictive
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset_threshold__work_order_type__predictive
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_sla__maintenance_type__predictive
+#: model:ir.model.fields.selection,name:facilities_management.selection__maintenance_workorder__maintenance_type__predictive
+#: model:ir.model.fields.selection,name:facilities_management.selection__maintenance_workorder__work_order_type__predictive
+#: model:ir.model.fields.selection,name:facilities_management.selection__maintenance_workorder_sla__work_order_type__predictive
+#: model:ir.model.fields.selection,name:facilities_management.selection__predictive_maintenance__maintenance_type__predictive
+msgid "Predictive"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.actions.act_window,name:facilities_management.action_predictive_analytics
+msgid "Predictive Analytics"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.actions.act_window,help:facilities_management.action_predictive_analytics
+msgid "Predictive Analytics Dashboard"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.actions.act_window,name:facilities_management.action_predictive_maintenance
+#: model:ir.model,name:facilities_management.model_predictive_maintenance
+#: model:ir.ui.menu,name:facilities_management.menu_predictive_maintenance_item
+msgid "Predictive Maintenance"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.actions.server,name:facilities_management.cron_predictive_maintenance_analysis_ir_actions_server
+msgid "Predictive Maintenance Analysis"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset__predictive_maintenance_enabled
+msgid "Predictive Maintenance Enabled"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-javascript
+#: code:addons/facilities_management/static/src/xml/iot_monitoring_templates.xml:0
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset_sensor__sensor_type__pressure
+#: model_terms:ir.ui.view,arch_db:facilities_management.asset_sensor_search_view
+#, python-format
+msgid "Pressure"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset__pressure
+msgid "Pressure Reading"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__asset_maintenance_schedule__maintenance_type__preventive
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset_threshold__work_order_type__preventive
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_sla__maintenance_type__preventive
+#: model:ir.model.fields.selection,name:facilities_management.selection__maintenance_workorder__maintenance_type__preventive
+#: model:ir.model.fields.selection,name:facilities_management.selection__maintenance_workorder__work_order_type__preventive
+#: model:ir.model.fields.selection,name:facilities_management.selection__maintenance_workorder_sla__work_order_type__preventive
+#: model:ir.model.fields.selection,name:facilities_management.selection__predictive_maintenance__maintenance_type__preventive
+msgid "Preventive"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_facility__contact_person_id
+msgid "Primary Contact Person"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_facility__email
+msgid "Primary email address for the facility."
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_facility__phone
+msgid "Primary phone number for the facility."
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_booking_template__priority
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_sla__priority
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_space_booking__priority
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_sla_analytics__priority
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder__priority
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder_sla__priority
+#: model:ir.model.fields.selection,name:facilities_management.selection__maintenance_workorder__sla_assignment_rule__priority
+#: model_terms:ir.ui.view,arch_db:facilities_management.report_workorder_maintenance_template
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facilities_sla_search
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_maintenance_workorder_enhanced_search
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_space_booking_search
+msgid "Priority"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.actions.act_window,name:facilities_management.action_priority_analysis
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_priority_analysis_graph
+msgid "Priority Analysis"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_sla__priority_level
+msgid "Priority Level"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_booking_template_kanban
+msgid "Priority:"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.asset_scan_wizard_form_view
+msgid "Process Scan"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder_part_line__product_id
+msgid "Product"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model,name:facilities_management.model_product_product
+msgid "Product Variant"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset__facility_id
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facilities_asset_search
+msgid "Project"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_facility__property_type
+#: model_terms:ir.ui.view,arch_db:facilities_management.facility_search_view
+msgid "Property Type"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.asset_sensor_form_view
+msgid "Protocol"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_workorder_permit_form
+msgid "Provide rejection reason if rejecting"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_room_equipment__purchase_cost
+msgid "Purchase Cost"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset__purchase_date
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_room_equipment__purchase_date
+#: model_terms:ir.ui.view,arch_db:facilities_management.report_asset_maintenance_tabular_template
+msgid "Purchase Date"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.actions.act_window,name:facilities_management.action_asset_purchase_timeline
+#: model:ir.ui.menu,name:facilities_management.menu_purchase_timeline_item
+msgid "Purchase Timeline"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset__purchase_value
+msgid "Purchase Value"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facilities_asset_search
+msgid "Purchased This Year"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_booking_template__purpose
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_space_booking__purpose
+msgid "Purpose"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-javascript
+#: code:addons/facilities_management/static/src/xml/mobile_scanner_templates.xml:0
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset__qr_code
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_space_booking__qr_code
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset_scan_wizard__scan_type__qr_code
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_space_booking_form
+#, python-format
+msgid "QR Code"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_space_booking_form
+msgid "QR Code & Access"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_space_booking__qr_code_filename
+msgid "QR Code Filename"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset__barcode_image
+msgid "QR Code Image"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_asset__qr_code
+msgid "QR code for mobile scanning"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.report_workorder_maintenance_template
+msgid "Qty"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder_part_line__product_qty_in_hand
+msgid "Qty On Hand"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.monthly_building_report_pdf
+msgid "Qty Used"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_job_plan_task__quantity
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder_part_line__quantity
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder_task__quantity
+#: model_terms:ir.ui.view,arch_db:facilities_management.report_workorder_maintenance_template
+msgid "Quantity"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/maintenance_workorder_part_line.py:0
+#, python-format
+msgid "Quantity must be positive for parts used."
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_maintenance_workorder_part_line__product_qty_in_hand
+msgid "Quantity of this product available in stock (unreserved)."
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__asset_maintenance_schedule__interval_type__quarterly
+#: model:ir.model.fields.selection,name:facilities_management.selection__predictive_maintenance__interval_type__quarterly
+msgid "Quarter(s)"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.asset_scan_wizard_form_view
+msgid "Quick Actions"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.ui.menu,name:facilities_management.menu_quick_booking
+msgid "Quick Book"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.actions.act_window,name:facilities_management.action_quick_booking
+msgid "Quick Booking"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset_scan_wizard__action_type__inspection
+msgid "Quick Inspection"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset_scan_wizard__scan_type__rfid
+msgid "RFID"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset__rfid_tag
+msgid "RFID Tag ID"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_asset__rfid_tag
+msgid "RFID tag identifier for asset tracking"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facilities_sla_dashboard_form
+msgid "Rates"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_space_booking__rating
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_space_booking_form
+msgid "Rating"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_asset_maintenance_schedule__rating_ids
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset__rating_ids
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_category__rating_ids
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_depreciation__rating_ids
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_performance__rating_ids
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_building__rating_ids
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_facility__rating_ids
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_floor__rating_ids
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_room__rating_ids
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_sla__rating_ids
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_sla_dashboard__rating_ids
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_space_booking__rating_ids
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_job_plan__rating_ids
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_kpi_dashboard__rating_ids
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_team__rating_ids
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder__rating_ids
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder_permit__rating_ids
+#: model:ir.model.fields,field_description:facilities_management.field_predictive_maintenance__rating_ids
+msgid "Ratings"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_sensor__reading_frequency
+#: model_terms:ir.ui.view,arch_db:facilities_management.asset_sensor_search_view
+msgid "Reading Frequency"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_scan_wizard__sensor_reading_notes
+msgid "Reading Notes"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_sensor_data__reading_time
+msgid "Reading Time"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset__sensor_data_frequency__realtime
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset_sensor__reading_frequency__realtime
+msgid "Real-time"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_asset__humidity
+msgid "Real-time humidity reading"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_asset__power_consumption
+msgid "Real-time power consumption"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_asset__pressure
+msgid "Real-time pressure measurement"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_asset__temperature
+msgid "Real-time temperature reading"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_asset__vibration
+msgid "Real-time vibration measurement"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_asset_downtime_reason__name
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_escalation_log__reason
+msgid "Reason"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_disposal_wizard__disposal_receipt_filename
+msgid "Receipt Filename"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-javascript
+#: code:addons/facilities_management/static/src/xml/dashboard_templates.xml:0
+#, python-format
+msgid "Recent Bookings"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-javascript
+#: code:addons/facilities_management/static/src/xml/mobile_scanner_templates.xml:0
+#, python-format
+msgid "Recent Scans"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.sla_performance_report
+msgid "Recommendations"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-javascript
+#: code:addons/facilities_management/static/src/js/iot_monitoring.js:0
+#, python-format
+msgid "Reconnecting..."
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset_scan_wizard__action_type__sensor_reading
+msgid "Record Sensor Reading"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_asset_maintenance_schedule__interval_type
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_space_booking__recurring_display
+#: model:ir.model.fields,field_description:facilities_management.field_predictive_maintenance__interval_type
+msgid "Recurrence"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_space_booking__recurrence_rule
+msgid "Recurrence Rule"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_space_booking_kanban
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_space_booking_search
+msgid "Recurring"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_space_booking__is_recurring
+msgid "Recurring Booking"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset_disposal__disposal_method__recycling
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset_disposal_wizard__disposal_method__recycling
+msgid "Recycling"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-javascript
+#: code:addons/facilities_management/static/src/xml/dashboard_templates.xml:0
+#: code:addons/facilities_management/static/src/xml/iot_monitoring_templates.xml:0
+#: code:addons/facilities_management/static/src/xml/iot_monitoring_templates.xml:0
+#, python-format
+msgid "Refresh"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_workorder_form
+msgid "Refuse"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__maintenance_workorder__approval_state__refused
+msgid "Refused"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset_disposal__disposal_reason__regulatory
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset_disposal_wizard__disposal_reason__regulatory
+msgid "Regulatory Requirements"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.asset_disposal_wizard_form_view
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_space_booking_form
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_workorder_permit_form
+msgid "Reject"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_booking_reject_wizard_form
+msgid "Reject Booking"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset_disposal_wizard__approval_state__rejected
+#: model:ir.model.fields.selection,name:facilities_management.selection__maintenance_workorder_permit__status__rejected
+msgid "Rejected"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_booking_reject_wizard__rejection_reason
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_space_booking__rejection_reason
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder_permit__rejected_reason
+msgid "Rejection Reason"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_stock_move__workorder_id
+msgid "Related Maintenance Work Order"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_facility__permit_numbers
+msgid "Relevant building permits or licenses."
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_space_booking__reminder_sent
+msgid "Reminder Sent"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/workorder_permit.py:0
+#, python-format
+msgid "Reminder: Permit is expiring soon (%s)."
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facilities_asset_search
+msgid "Remote Monitoring"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset__remote_monitoring
+msgid "Remote Monitoring Enabled"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset__renewable_energy_usage
+msgid "Renewable Energy Usage (%)"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__maintenance_workorder__service_type__repair
+msgid "Repair"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_asset_maintenance_schedule__interval_number
+#: model:ir.model.fields,field_description:facilities_management.field_predictive_maintenance__interval_number
+msgid "Repeat Every"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset_disposal__disposal_reason__replacement
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset_disposal_wizard__disposal_reason__replacement
+msgid "Replaced by New Asset"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__maintenance_workorder__service_type__replacement
+msgid "Replacement"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset__replacement_cost
+msgid "Replacement Cost"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_maintenance_workorder_kanban
+msgid "Report Downtime"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.sla_performance_report
+msgid "Report Period"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.sla_performance_report
+msgid "Report generated on"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.ui.menu,name:facilities_management.menu_facilities_reports
+msgid "Reports"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_disposal_wizard__approval_request_date
+msgid "Request Date"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__maintenance_workorder_permit__status__requested
+msgid "Requested"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_disposal_wizard__requested_by_id
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder_permit__requested_by_id
+msgid "Requested By"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_booking_template__required_capacity
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_space_booking__required_capacity
+msgid "Required Capacity"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_booking_template__required_equipment_ids
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_space_booking__required_equipment_ids
+msgid "Required Equipment"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_job_plan_task__product_id
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder_task__product_id
+#: model_terms:ir.ui.view,arch_db:facilities_management.report_workorder_maintenance_template
+msgid "Required Part"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder__skill_requirements
+msgid "Required Skills"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/space_booking.py:0
+#, python-format
+msgid "Required capacity (%d) exceeds room capacity (%d)."
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_workorder_form
+msgid "Reset to Draft"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_building__building_type__residential
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_facility__property_type__residential
+#: model_terms:ir.ui.view,arch_db:facilities_management.facility_search_view
+msgid "Residential"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_sla_analytics__resolution_sla_met
+msgid "Resolution SLA Met"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_sla_analytics__sla_resolution_target
+msgid "Resolution SLA Target"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_escalation_log__resolution_time
+#: model_terms:ir.ui.view,arch_db:facilities_management.sla_performance_report
+msgid "Resolution Time"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_sla__resolution_time_hours
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder_sla__resolution_time_hours
+msgid "Resolution Time (Hours)"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_escalation_log__resolved_by_id
+msgid "Resolved By"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder__resource_efficiency
+msgid "Resource Efficiency (%)"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.actions.act_window,name:facilities_management.action_maintenance_resource_utilization
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder__resource_utilization_ids
+#: model:ir.ui.menu,name:facilities_management.menu_maintenance_resource_utilization_item
+msgid "Resource Utilization"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model,name:facilities_management.model_maintenance_resource_utilization
+msgid "Resource Utilization Tracking"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_sla_analytics__response_sla_met
+msgid "Response SLA Met"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_sla_analytics__sla_response_target
+msgid "Response SLA Target"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.sla_performance_report
+msgid "Response Time"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_sla__response_time_hours
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder_sla__response_time_hours
+msgid "Response Time (Hours)"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/sla.py:0
+#, python-format
+msgid "Response and resolution times must be positive values."
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/workorder_sla.py:0
+#, python-format
+msgid "Response time must be less than resolution time"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/sla.py:0
+#, python-format
+msgid "Response time must be less than resolution time."
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.report_asset_maintenance_tabular_template
+#: model_terms:ir.ui.view,arch_db:facilities_management.report_workorder_maintenance_template
+msgid "Responsible"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset__responsible_id
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facilities_asset_search
+msgid "Responsible Person"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_job_plan_task__responsible_id
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder_task__responsible_id
+msgid "Responsible Personnel (Role)"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_asset_maintenance_schedule__activity_user_id
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset__activity_user_id
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_category__activity_user_id
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_depreciation__activity_user_id
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_performance__activity_user_id
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_building__activity_user_id
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_facility__activity_user_id
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_floor__activity_user_id
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_room__activity_user_id
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_sla__activity_user_id
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_sla_dashboard__activity_user_id
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_space_booking__activity_user_id
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_job_plan__activity_user_id
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_kpi_dashboard__activity_user_id
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_team__activity_user_id
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder__activity_user_id
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder_permit__activity_user_id
+#: model:ir.model.fields,field_description:facilities_management.field_predictive_maintenance__activity_user_id
+msgid "Responsible User"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_room__room_type__restroom
+msgid "Restroom"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_building__building_type__retail
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_facility__property_type__retail
+msgid "Retail"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_room_equipment__status__retired
+msgid "Retired"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.report_workorder_maintenance_template
+msgid ""
+"Return all tools and equipment after completion and update the work order "
+"accordingly."
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.report_workorder_maintenance_template
+msgid ""
+"Review each task and ensure all safety protocols are met before starting."
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset__risk_management_score
+msgid "Risk Management Score"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset__risk_score
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facility_asset_form
+msgid "Risk Score"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_asset__risk_management_score
+msgid "Risk management effectiveness score"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-javascript
+#: code:addons/facilities_management/static/src/xml/dashboard_templates.xml:0
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset__room_id
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_space_booking__room_id
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder__room_id
+#: model_terms:ir.ui.view,arch_db:facilities_management.monthly_building_report_pdf
+#: model_terms:ir.ui.view,arch_db:facilities_management.report_workorder_maintenance_template
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facilities_asset_search
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facilities_room_form
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_space_booking_search
+#, python-format
+msgid "Room"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_space_booking__room_capacity
+msgid "Room Capacity"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_room__code
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facilities_room_form
+msgid "Room Code"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facilities_room_form
+msgid "Room Details"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.actions.act_window,name:facilities_management.action_room_equipment
+#: model:ir.model,name:facilities_management.model_facilities_room_equipment
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_room_equipment_form
+msgid "Room Equipment"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_room__manager_id
+msgid "Room Manager"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_room__name
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facilities_room_form
+msgid "Room Name/Number"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_room__room_type
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facilities_room_search
+msgid "Room Type"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-javascript
+#: code:addons/facilities_management/static/src/xml/dashboard_templates.xml:0
+#, python-format
+msgid "Room Utilization (This Week)"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_room_utilization_pivot
+msgid "Room Utilization Analysis"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.actions.act_window,name:facilities_management.action_room_utilization_analytics
+msgid "Room Utilization Analytics"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_utilization_trends_graph
+msgid "Room Utilization Trends"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.actions.act_window,name:facilities_management.action_facilities_room
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_floor__room_ids
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_import_wizard__export_type__rooms
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_import_wizard__import_type__rooms
+#: model:ir.ui.menu,name:facilities_management.menu_rooms_item
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facilities_floor_form
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facilities_room_search
+msgid "Rooms"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.asset_sensor_search_view
+msgid "Runtime"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_performance__runtime_percentage
+msgid "Runtime Efficiency (%)"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset__runtime_hours
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset_sensor__sensor_type__runtime
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset_threshold__threshold_type__runtime_hours
+msgid "Runtime Hours"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_sla_dashboard__sla_id
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_sla_analytics__sla_id
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder__sla_id
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facilities_sla_dashboard_form
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facilities_sla_form
+msgid "SLA"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/sla.py:0
+#, python-format
+msgid "SLA \"%s\" has been activated by %s via bulk operation."
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/sla.py:0
+#, python-format
+msgid "SLA \"%s\" has been activated by %s."
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/sla.py:0
+#, python-format
+msgid "SLA \"%s\" has been deactivated by %s via bulk operation."
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/sla.py:0
+#, python-format
+msgid "SLA \"%s\" has been deactivated by %s."
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_maintenance_workorder_enhanced_form
+msgid "SLA & Time Tracking"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/sla.py:0
+#, python-format
+msgid "SLA Activated"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.actions.act_window,name:facilities_management.action_maintenance_sla_analytics
+#: model:ir.ui.menu,name:facilities_management.menu_maintenance_sla_analytics_item
+msgid "SLA Analytics"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model,name:facilities_management.model_maintenance_sla_analytics
+msgid "SLA Analytics and Reports"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_maintenance_workorder_enhanced_form
+msgid "SLA Assignment"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder__sla_assignment_rule
+msgid "SLA Assignment Rule"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/sla.py:0
+#, python-format
+msgid "SLA Assignment Test"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder__sla_breach_time
+msgid "SLA Breach Time"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.monthly_building_report_pdf
+msgid "SLA Compliance"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_kpi_dashboard__sla_compliance_rate
+msgid "SLA Compliance Rate (%)"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/sla.py:0
+#, python-format
+msgid "SLA Deactivated"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder__sla_deadline
+msgid "SLA Deadline"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.sla_performance_report
+msgid "SLA Details"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_workorder_form
+msgid "SLA Information"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_sla__name
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder_sla__name
+#: model_terms:ir.ui.view,arch_db:facilities_management.sla_performance_report
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facilities_sla_form
+msgid "SLA Name"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model,name:facilities_management.model_facilities_sla_dashboard
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facilities_sla_dashboard_form
+msgid "SLA Performance Dashboard"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.actions.report,name:facilities_management.action_sla_performance_report
+#: model_terms:ir.ui.view,arch_db:facilities_management.sla_performance_report
+msgid "SLA Performance Report"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder__sla_resolution_deadline
+msgid "SLA Resolution Deadline"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder__sla_resolution_status
+msgid "SLA Resolution Status"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder__sla_response_deadline
+msgid "SLA Response Deadline"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder__sla_response_status
+msgid "SLA Response Status"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facilities_sla_search
+msgid "SLA Search"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder__sla_status
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_maintenance_workorder_enhanced_search
+msgid "SLA Status"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.actions.act_window,help:facilities_management.action_maintenance_sla_analytics
+msgid ""
+"SLA analytics will appear here once you have maintenance work orders with "
+"SLA tracking."
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.ui.menu,name:facilities_management.menu_facilities_sla
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facilities_sla_tree
+msgid "SLAs"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/sla.py:0
+#, python-format
+msgid "SLAs Activated"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/sla.py:0
+#, python-format
+msgid "SLAs Deactivated"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_asset_maintenance_schedule__message_has_sms_error
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset__message_has_sms_error
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_category__message_has_sms_error
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_depreciation__message_has_sms_error
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_performance__message_has_sms_error
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_building__message_has_sms_error
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_facility__message_has_sms_error
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_floor__message_has_sms_error
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_room__message_has_sms_error
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_sla__message_has_sms_error
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_sla_dashboard__message_has_sms_error
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_space_booking__message_has_sms_error
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_job_plan__message_has_sms_error
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_kpi_dashboard__message_has_sms_error
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_team__message_has_sms_error
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder__message_has_sms_error
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder_permit__message_has_sms_error
+#: model:ir.model.fields,field_description:facilities_management.field_predictive_maintenance__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_sla__sms_notifications
+msgid "SMS Notifications"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__predictive_maintenance__algorithm__svm
+msgid "SVM"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_room_equipment__equipment_type__safety
+msgid "Safety"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset_disposal__disposal_reason__safety_concerns
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset_disposal_wizard__disposal_reason__safety_concerns
+msgid "Safety Concerns"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset_disposal__disposal_method__sale
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset_disposal_wizard__disposal_method__sale
+msgid "Sale"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_depreciation__salvage_value
+msgid "Salvage Value"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_space_booking__is_template
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_space_booking_form
+msgid "Save as Template"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.asset_scan_wizard_form_view
+msgid "Scan Configuration"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_scan_wizard__scan_location
+msgid "Scan Location"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_scan_wizard__scan_notes
+#: model_terms:ir.ui.view,arch_db:facilities_management.asset_scan_wizard_form_view
+msgid "Scan Notes"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_scan_wizard__scan_type
+msgid "Scan Type"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.actions.act_window,help:facilities_management.action_asset_scan_wizard
+msgid "Scan an asset to update its information!"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset__scanned_by_id
+msgid "Scanned By"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_scan_wizard__scanned_code
+msgid "Scanned Code"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/asset_scan_wizard.py:0
+#, python-format
+msgid "Scanned code does not match the selected asset."
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset_threshold__action_type__schedule_maintenance
+#: model_terms:ir.ui.view,arch_db:facilities_management.asset_threshold_search_view
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_room_equipment_form
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_room_equipment_tree
+msgid "Schedule Maintenance"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_asset_maintenance_schedule__name
+#: model:ir.model.fields,field_description:facilities_management.field_predictive_maintenance__name
+msgid "Schedule Name"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.ui.menu,name:facilities_management.menu_scheduled_maintenance_actions
+msgid "Scheduled Actions"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.report_workorder_maintenance_template
+msgid "Scheduled End"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__asset_downtime_reason__category__maintenance
+msgid "Scheduled Maintenance"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.actions.act_window,name:facilities_management.action_asset_maintenance_scheduled_actions
+msgid "Scheduled Maintenance Actions"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.report_workorder_maintenance_template
+msgid "Scheduled Start"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.ui.menu,name:facilities_management.menu_maintenance_schedule
+msgid "Schedules"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_asset__community_impact_score
+msgid "Score indicating positive community impact"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_asset__waste_management_score
+msgid "Score indicating waste management effectiveness"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.asset_scan_wizard_form_view
+msgid "Search Asset"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_job_plan_task__section_id
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder_task__section_id
+#: model_terms:ir.ui.view,arch_db:facilities_management.report_workorder_maintenance_template
+msgid "Section"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_job_plan_section__name
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder_section__name
+msgid "Section Name"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_maintenance_job_plan_task__section_id
+msgid "Section to which this task belongs."
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_job_plan__section_ids
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder__section_ids
+msgid "Sections"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.maintenance_job_plan_view_form
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_workorder_form
+msgid "Sections & Tasks"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__maintenance_team__service_type__security
+msgid "Security"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_facility__security_system_type
+msgid "Security System Type"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.asset_disposal_wizard_form_view
+msgid "Select Asset"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_workorder_form
+msgid "Select a Job Plan to automatically populate tasks for this work order."
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_asset_maintenance_schedule__job_plan_id
+#: model:ir.model.fields,help:facilities_management.field_predictive_maintenance__job_plan_id
+msgid ""
+"Select a job plan to associate with this maintenance schedule. Tasks from "
+"this plan will be copied to generated work orders."
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facilities_sla_form
+msgid "Select asset criticality level"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facilities_sla_form
+msgid "Select maintenance type"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facilities_sla_form
+msgid "Select priority level"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset_threshold__action_type__send_alert
+#: model_terms:ir.ui.view,arch_db:facilities_management.asset_threshold_search_view
+msgid "Send Alert"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.actions.server,name:facilities_management.cron_send_booking_reminders_ir_actions_server
+msgid "Send Booking Reminder Notifications"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_space_booking_form
+msgid "Send Reminder"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_maintenance_workorder_sla__critical_threshold
+msgid "Send critical alert when SLA reaches this percentage"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_booking_reject_wizard__notify_user
+msgid "Send email notification to the booking user"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_workorder_permit_form
+msgid "Send to Facility Manager"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_maintenance_workorder_sla__warning_threshold
+msgid "Send warning when SLA reaches this percentage"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_sensor_data__sensor_id
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_threshold__sensor_id
+msgid "Sensor"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-javascript
+#: code:addons/facilities_management/static/src/js/iot_monitoring.js:0
+#, python-format
+msgid "Sensor Alert: %s - %s %s"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.asset_sensor_graph_view
+msgid "Sensor Analysis"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.asset_threshold_form_view
+msgid "Sensor Configuration"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.actions.act_window,name:facilities_management.action_asset_sensor_data
+#: model:ir.ui.menu,name:facilities_management.menu_asset_sensor_data
+#: model_terms:ir.ui.view,arch_db:facilities_management.asset_sensor_data_tree_view
+msgid "Sensor Data"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.asset_sensor_data_graph_view
+msgid "Sensor Data Analysis"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-javascript
+#: code:addons/facilities_management/static/src/xml/iot_monitoring_templates.xml:0
+#, python-format
+msgid "Sensor Data Chart"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset__sensor_data_frequency
+msgid "Sensor Data Frequency"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset__sensor_data_url
+msgid "Sensor Data URL"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_sensor__sensor_id
+msgid "Sensor ID"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.asset_sensor_form_view
+msgid "Sensor Information"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_sensor__name
+#: model_terms:ir.ui.view,arch_db:facilities_management.asset_sensor_form_view
+msgid "Sensor Name"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_scan_wizard__sensor_reading_value
+#: model_terms:ir.ui.view,arch_db:facilities_management.asset_scan_wizard_form_view
+msgid "Sensor Reading"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-javascript
+#: code:addons/facilities_management/static/src/xml/iot_monitoring_templates.xml:0
+#, python-format
+msgid "Sensor Status"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_sensor__sensor_type
+#: model_terms:ir.ui.view,arch_db:facilities_management.asset_sensor_search_view
+msgid "Sensor Type"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset_threshold__threshold_type__sensor_value
+msgid "Sensor Value"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.report_workorder_maintenance_template
+msgid "Seq"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_asset_downtime_reason__sequence
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_category__sequence
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_job_plan_section__sequence
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_job_plan_task__sequence
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder_section__sequence
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder_sla__sequence
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder_task__sequence
+msgid "Sequence"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset__serial_number
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_room_equipment__serial_number
+#: model_terms:ir.ui.view,arch_db:facilities_management.report_asset_maintenance_tabular_template
+msgid "Serial Number"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model,name:facilities_management.model_facilities_sla
+msgid "Service Level Agreement"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.actions.act_window,name:facilities_management.action_facilities_sla
+msgid "Service Level Agreements"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_product_product__service_policy
+msgid "Service Policy"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset__service_provider_id
+msgid "Service Provider"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_product_product__service_tracking
+msgid "Service Tracking"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_team__service_type
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder__service_type
+#: model_terms:ir.ui.view,arch_db:facilities_management.report_workorder_maintenance_template
+msgid "Service Type"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.facility_form_view
+msgid "Services"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facility_asset_form
+msgid "Set Active"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_space_booking_form
+msgid "Set to Draft"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facility_asset_form
+msgid "Set to Maintenance"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_facility__active
+msgid "Set to false to archive the facility."
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.actions.act_window,help:facilities_management.action_asset_threshold
+msgid ""
+"Set up condition-based triggers to automatically create work orders, send "
+"alerts, or update asset status."
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.actions.act_window,help:facilities_management.action_predictive_maintenance
+msgid "Set up predictive maintenance!"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_performance__shift
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_asset_performance_search
+msgid "Shift"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder__show_tasks_to_complete_btn
+msgid "Show Tasks to Complete Button"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder__skill_match_score
+msgid "Skill Match Score"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_import_wizard__skip_errors
+msgid "Skip Errors"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facility_asset_form
+msgid "Smart Asset Features"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facility_asset_form
+msgid "Social Metrics"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.ui.menu,name:facilities_management.menu_space_booking
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_space_booking_form
+msgid "Space Booking"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.actions.act_window,name:facilities_management.action_space_booking_analytics
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_space_booking_analytics_dashboard
+msgid "Space Booking Analytics"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_space_booking_calendar
+msgid "Space Booking Calendar"
+msgstr ""
+
+#. module: facilities_management
+#: model:mail.template,name:facilities_management.mail_template_space_booking_cancelled
+msgid "Space Booking Cancellation"
+msgstr ""
+
+#. module: facilities_management
+#: model:mail.template,name:facilities_management.mail_template_space_booking_checked_in
+msgid "Space Booking Check-in Confirmation"
+msgstr ""
+
+#. module: facilities_management
+#: model:mail.template,name:facilities_management.mail_template_space_booking_confirmed
+msgid "Space Booking Confirmation"
+msgstr ""
+
+#. module: facilities_management
+#: model:mail.template,subject:facilities_management.mail_template_space_booking_confirmed
+msgid "Space Booking Confirmed - ${object.name}"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_space_booking_dashboard
+msgid "Space Booking Dashboard"
+msgstr ""
+
+#. module: facilities_management
+#: model:mail.template,name:facilities_management.mail_template_space_booking_rejected
+msgid "Space Booking Rejected"
+msgstr ""
+
+#. module: facilities_management
+#: model:mail.template,name:facilities_management.mail_template_space_booking_reminder
+msgid "Space Booking Reminder"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.actions.act_window,name:facilities_management.action_space_booking
+msgid "Space Bookings"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model,name:facilities_management.model_facilities_space_booking
+msgid "Space/Room Booking"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_room_equipment_form
+msgid "Specifications"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset__health_trend__stable
+msgid "Stable"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset__stakeholder_engagement
+msgid "Stakeholder Engagement Score"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_asset__stakeholder_engagement
+msgid "Stakeholder engagement effectiveness"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder__start_date
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder_assignment__start_date
+msgid "Start Date"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-javascript
+#: code:addons/facilities_management/static/src/xml/mobile_scanner_templates.xml:0
+#, python-format
+msgid "Start Scanning"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-javascript
+#: code:addons/facilities_management/static/src/xml/dashboard_templates.xml:0
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_space_booking__start_datetime
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_resource_utilization__start_time
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder__start_time
+#, python-format
+msgid "Start Time"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_maintenance_workorder_enhanced_form
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_maintenance_workorder_kanban
+msgid "Start Work"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_workorder_form
+msgid "Start Workorder"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset__state
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_facility__state_id
+#: model_terms:ir.ui.view,arch_db:facilities_management.facility_search_view
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facilities_asset_search
+msgid "State"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.facilities_import_wizard_form_view
+msgid "Statistics"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-javascript
+#: code:addons/facilities_management/static/src/xml/dashboard_templates.xml:0
+#: model:ir.model.fields,field_description:facilities_management.field_asset_maintenance_schedule__status
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_depreciation__state
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_sensor__status
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_sensor_data__status
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_room_equipment__status
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_space_booking__state
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder__state
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder__status
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder_permit__status
+#: model:ir.model.fields,field_description:facilities_management.field_predictive_maintenance__status
+#: model_terms:ir.ui.view,arch_db:facilities_management.asset_sensor_search_view
+#: model_terms:ir.ui.view,arch_db:facilities_management.asset_threshold_form_view
+#: model_terms:ir.ui.view,arch_db:facilities_management.asset_threshold_search_view
+#: model_terms:ir.ui.view,arch_db:facilities_management.report_asset_maintenance_tabular_template
+#: model_terms:ir.ui.view,arch_db:facilities_management.report_workorder_maintenance_template
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facilities_sla_search
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_room_equipment_search
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_space_booking_search
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_space_booking_tree
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_workorder_calendar_search
+#, python-format
+msgid "Status"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_space_booking__booking_status_display
+msgid "Status Display"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.monthly_building_report_pdf
+msgid "Status Distribution"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_asset_maintenance_schedule__activity_state
+#: model:ir.model.fields,help:facilities_management.field_facilities_asset__activity_state
+#: model:ir.model.fields,help:facilities_management.field_facilities_asset_category__activity_state
+#: model:ir.model.fields,help:facilities_management.field_facilities_asset_depreciation__activity_state
+#: model:ir.model.fields,help:facilities_management.field_facilities_asset_performance__activity_state
+#: model:ir.model.fields,help:facilities_management.field_facilities_building__activity_state
+#: model:ir.model.fields,help:facilities_management.field_facilities_facility__activity_state
+#: model:ir.model.fields,help:facilities_management.field_facilities_floor__activity_state
+#: model:ir.model.fields,help:facilities_management.field_facilities_room__activity_state
+#: model:ir.model.fields,help:facilities_management.field_facilities_sla__activity_state
+#: model:ir.model.fields,help:facilities_management.field_facilities_sla_dashboard__activity_state
+#: model:ir.model.fields,help:facilities_management.field_facilities_space_booking__activity_state
+#: model:ir.model.fields,help:facilities_management.field_maintenance_job_plan__activity_state
+#: model:ir.model.fields,help:facilities_management.field_maintenance_kpi_dashboard__activity_state
+#: model:ir.model.fields,help:facilities_management.field_maintenance_team__activity_state
+#: model:ir.model.fields,help:facilities_management.field_maintenance_workorder__activity_state
+#: model:ir.model.fields,help:facilities_management.field_maintenance_workorder_permit__activity_state
+#: model:ir.model.fields,help:facilities_management.field_predictive_maintenance__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: facilities_management
+#. odoo-javascript
+#: code:addons/facilities_management/static/src/xml/iot_monitoring_templates.xml:0
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_maintenance_workorder_kanban
+#, python-format
+msgid "Status:"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model,name:facilities_management.model_stock_move
+msgid "Stock Move"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-javascript
+#: code:addons/facilities_management/static/src/xml/mobile_scanner_templates.xml:0
+#, python-format
+msgid "Stop Scanning"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_room__room_type__storage
+msgid "Storage"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_asset_sensor__historical_data
+msgid "Stored historical readings"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset_depreciation__depreciation_method__straight_line
+msgid "Straight Line"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_building__address
+msgid "Street address of the building if different from facility."
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_facility__address
+msgid "Street address of the facility."
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.asset_disposal_wizard_form_view
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_workorder_form
+msgid "Submit for Approval"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__maintenance_workorder__approval_state__submitted
+msgid "Submitted"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder__submitted_by_id
+msgid "Submitted By"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset_depreciation__depreciation_method__sum_of_years
+msgid "Sum of Years Digits"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.monthly_building_report_pdf
+msgid "Summary"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder__supervisor_id
+#: model_terms:ir.ui.view,arch_db:facilities_management.report_workorder_maintenance_template
+msgid "Supervisor"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_workorder_form
+msgid "Supervisor Approve"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__maintenance_workorder__approval_state__supervisor
+msgid "Supervisor Review"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-javascript
+#: code:addons/facilities_management/static/src/xml/mobile_scanner_templates.xml:0
+#, python-format
+msgid "Sync Data"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-javascript
+#: code:addons/facilities_management/static/src/xml/mobile_scanner_templates.xml:0
+#, python-format
+msgid "Synced"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_sla__target_first_time_fix_rate
+msgid "Target First Time Fix Rate (%)"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_sla__target_mttr_hours
+msgid "Target MTTR (Hours)"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_sla__target_sla_compliance_rate
+msgid "Target SLA Compliance Rate (%)"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset__utilization_target
+msgid "Target Utilization (%)"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder_task__name
+msgid "Task Description"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_workorder_task_form_custom
+msgid "Task Details"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_job_plan_task__name
+msgid "Task Name"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_job_plan_section__task_ids
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder_section__task_ids
+msgid "Tasks"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/maintenance_workorder_task.py:0
+#, python-format
+msgid ""
+"Tasks can only be marked as completed when the Work Order is 'In Progress'."
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/maintenance_workorder_task.py:0
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_workorder_mobile_minimal_form
+#, python-format
+msgid "Tasks to Complete"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_maintenance_team_form
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_maintenance_workorder_enhanced_search
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_workorder_calendar_search
+msgid "Team"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_maintenance_workorder_enhanced_form
+msgid "Team & Technicians"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.actions.act_window,name:facilities_management.action_workorder_team_calendar
+#: model:ir.ui.menu,name:facilities_management.menu_maintenance_workorder_team_calendar
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_workorder_team_calendar
+msgid "Team Calendar"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_team__leader_id
+msgid "Team Leader"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_team__member_ids
+msgid "Team Members"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_team__name
+msgid "Team Name"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.actions.act_window,name:facilities_management.action_maintenance_team
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_maintenance_team_tree
+msgid "Teams"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_room_equipment__specifications
+msgid "Technical Specifications"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_asset__is_enterprise
+msgid "Technical field to check if enterprise features are available"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_assign_technician_wizard__technician_id
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder__technician_id
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder_assignment__technician_id
+#: model_terms:ir.ui.view,arch_db:facilities_management.report_workorder_maintenance_template
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_workorder_calendar_search
+msgid "Technician"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder__assignment_ids
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_workorder_form
+msgid "Technician Assignments"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_technician_performance_kanban
+msgid "Technician Avatar"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.actions.act_window,name:facilities_management.action_workorder_technician_calendar
+#: model:ir.ui.menu,name:facilities_management.menu_maintenance_workorder_technician_calendar
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_workorder_technician_calendar
+msgid "Technician Calendar"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder_task__notes
+#: model_terms:ir.ui.view,arch_db:facilities_management.report_workorder_maintenance_template
+msgid "Technician Notes"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.ui.menu,name:facilities_management.menu_technician_performance_dashboard
+msgid "Technician Performance"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.actions.act_window,name:facilities_management.action_technician_performance_dashboard
+msgid "Technician Performance Dashboard"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder__signature
+msgid "Technician Signature"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_maintenance_workorder_kanban
+msgid "Technician:"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-javascript
+#: code:addons/facilities_management/static/src/xml/iot_monitoring_templates.xml:0
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset_sensor__sensor_type__temperature
+#: model_terms:ir.ui.view,arch_db:facilities_management.asset_sensor_search_view
+#, python-format
+msgid "Temperature"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_booking_template__name
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_space_booking__template_name
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_booking_template_form
+msgid "Template Name"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_space_booking_form
+msgid "Template Settings"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.ui.menu,name:facilities_management.menu_booking_templates
+msgid "Templates"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facilities_sla_form
+msgid "Test Assignment"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-javascript
+#: code:addons/facilities_management/static/src/xml/mobile_scanner_templates.xml:0
+#, python-format
+msgid "Test Offline Scan"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.asset_sensor_form_view
+msgid "Test Sensor"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__maintenance_workorder__service_type__testing
+msgid "Testing"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/space_booking.py:0
+#, python-format
+msgid "The assigned room manager (%s) does not have an associated Odoo user."
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/booking_reject_wizard.py:0
+#, python-format
+msgid "The booking has been rejected and the user has been notified."
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_floor__building_id
+msgid "The building this floor belongs to."
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_room__building_id
+msgid "The building this room indirectly belongs to."
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.constraint,message:facilities_management.constraint_maintenance_job_plan_code_unique
+msgid "The code of the job plan must be unique!"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_facility__manager_id
+msgid "The employee responsible for managing this facility."
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_maintenance_team__leader_id
+msgid "The employee responsible for this maintenance team."
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_floor__facility_id
+msgid "The facility this floor indirectly belongs to via its building."
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_room__facility_id
+msgid "The facility this room indirectly belongs to."
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_room__floor_id
+msgid "The floor this room is located on."
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_building__facility_id
+msgid "The main facility or property this building belongs to."
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_facility__name
+msgid "The official name of the facility or property."
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_maintenance_job_plan_section__job_plan_id
+msgid "The parent job plan for this section."
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_maintenance_job_plan_task__responsible_id
+msgid ""
+"The role or type of personnel typically responsible for this task (e.g., FM "
+"Technician, Electrician)."
+msgstr ""
+
+#. module: facilities_management
+#: model:res.groups,comment:facilities_management.group_facilities_user
+msgid ""
+"The user will be able to create and manage facilities, assets, and "
+"maintenance requests."
+msgstr ""
+
+#. module: facilities_management
+#: model:res.groups,comment:facilities_management.group_facilities_technician
+msgid ""
+"The user will be able to view and manage maintenance work orders assigned to"
+" them."
+msgstr ""
+
+#. module: facilities_management
+#: model:res.groups,comment:facilities_management.group_facilities_manager
+msgid ""
+"The user will have full access to all facilities management features "
+"including configuration and reports."
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_facility__year_built
+msgid "The year the facility was constructed."
+msgstr ""
+
+#. module: facilities_management
+#. odoo-javascript
+#: code:addons/facilities_management/static/src/xml/dashboard_templates.xml:0
+#, python-format
+msgid "This Month"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-javascript
+#: code:addons/facilities_management/static/src/xml/dashboard_templates.xml:0
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_asset_performance_search
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_space_booking_search
+#, python-format
+msgid "This Week"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.asset_disposal_search_view
+msgid "This Year"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/asset_disposal_wizard.py:0
+#, python-format
+msgid "This asset has already been disposed."
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/space_booking.py:0
+#, python-format
+msgid "This booking does not require approval."
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.sla_performance_report
+msgid ""
+"This report provides insights into SLA performance and compliance metrics "
+"for the specified period."
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/space_booking.py:0
+#, python-format
+msgid "This room is already booked for the selected time."
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.actions.act_window,help:facilities_management.action_asset_maintenance_scheduled_actions
+msgid ""
+"This view shows the scheduled actions (cron jobs) configured for "
+"maintenance."
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.asset_threshold_form_view
+msgid "Threshold Configuration"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_threshold__is_exceeded
+msgid "Threshold Exceeded"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_threshold__name
+#: model_terms:ir.ui.view,arch_db:facilities_management.asset_threshold_form_view
+msgid "Threshold Name"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_threshold__threshold_type
+#: model_terms:ir.ui.view,arch_db:facilities_management.asset_threshold_search_view
+msgid "Threshold Type"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_threshold__threshold_value
+msgid "Threshold Value"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.asset_sensor_form_view
+msgid "Thresholds"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/workorder_sla.py:0
+#, python-format
+msgid "Thresholds cannot exceed 100%"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/workorder_sla.py:0
+#, python-format
+msgid "Thresholds must be positive values"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/workorder_sla_integration.py:0
+#, python-format
+msgid "Time Tracking Started"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/workorder_sla_integration.py:0
+#, python-format
+msgid "Time Tracking Stopped"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/workorder_sla.py:0
+#, python-format
+msgid "Time hours must be positive values"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_maintenance_workorder_sla__response_time_hours
+msgid "Time to acknowledge/start work"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_maintenance_workorder_sla__resolution_time_hours
+msgid "Time to complete work"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facilities_sla_form
+msgid "Timeframes"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facility_asset_form
+msgid "Timeline"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_booking_template_form
+msgid "Times Used"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_asset__last_scan_time
+msgid "Timestamp of last mobile scan"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_asset_sensor__last_reading_time
+msgid "Timestamp of the last sensor reading"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_asset__last_sensor_reading
+msgid "Timestamp of the most recent sensor data"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_space_booking_form
+msgid "Timing"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_sla_dashboard__date_to
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_kpi_dashboard__date_to
+msgid "To Date"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_asset_performance_search
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_space_booking_search
+msgid "Today"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-javascript
+#: code:addons/facilities_management/static/src/xml/dashboard_templates.xml:0
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_space_booking_dashboard
+#, python-format
+msgid "Today's Bookings"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-javascript
+#: code:addons/facilities_management/static/src/xml/mobile_scanner_templates.xml:0
+#, python-format
+msgid "Toggle Camera"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-javascript
+#: code:addons/facilities_management/static/src/xml/iot_monitoring_templates.xml:0
+#, python-format
+msgid "Toggle Type"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset_category__category_type__tool
+msgid "Tool"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.report_workorder_maintenance_template
+msgid "Tools/Materials"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_job_plan_task__tools_materials
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder_task__tools_materials
+msgid "Tools/Materials Required"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.monthly_building_report_pdf
+msgid "Top 5 Assets"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.monthly_building_report_pdf
+msgid "Top 5 Parts Used"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.monthly_building_report_pdf
+msgid "Top 5 Rooms"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_asset_category_search
+msgid "Top Level"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.sla_performance_report
+msgid "Total"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_asset_performance_tree
+msgid "Total Actual"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_building__total_area_sqm
+msgid "Total Area (sqm)"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_asset_category_form
+msgid "Total Assets"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_category__total_asset_count
+msgid "Total Assets (including subcategories)"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-javascript
+#: code:addons/facilities_management/static/src/xml/dashboard_templates.xml:0
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_room_equipment__total_bookings
+#, python-format
+msgid "Total Bookings"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_space_booking__total_cost
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_kpi_dashboard__total_cost
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_resource_utilization__total_cost
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder__total_cost
+msgid "Total Cost"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset__total_cost_of_ownership
+msgid "Total Cost of Ownership"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_category__total_current_value
+msgid "Total Current Value"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_disposal_wizard__depreciation_amount
+msgid "Total Depreciation"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_asset_performance_tree
+msgid "Total Downtime"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_kpi_dashboard__total_downtime
+msgid "Total Downtime (Hours)"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_asset_performance_tree
+msgid "Total Expected"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset__operating_hours_total
+msgid "Total Operating Hours"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_category__total_purchase_value
+msgid "Total Purchase Value"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_import_wizard__total_records
+msgid "Total Records"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder__total_resource_cost
+msgid "Total Resource Cost"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder__total_resource_hours
+msgid "Total Resource Hours"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-javascript
+#: code:addons/facilities_management/static/src/xml/iot_monitoring_templates.xml:0
+#, python-format
+msgid "Total Sensors"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_sla__total_workorders
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_sla_dashboard__total_workorders
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_kpi_dashboard__total_workorders
+#: model_terms:ir.ui.view,arch_db:facilities_management.sla_performance_report
+msgid "Total Work Orders"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.monthly_building_report_pdf
+msgid "Total Work Orders:"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_facility__area_sqm
+msgid "Total area of the facility in square meters."
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_facility__number_of_floors
+msgid "Total number of floors in the building."
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/asset_performance.py:0
+#, python-format
+msgid "Total runtime and downtime cannot exceed 24 hours per day."
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_asset__runtime_hours
+msgid "Total runtime hours"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.actions.act_window,help:facilities_management.action_asset_dashboard
+msgid ""
+"Track and manage your facility assets with comprehensive insights:\n"
+"                    <br>• Asset value tracking\n"
+"                    <br>• Warranty monitoring\n"
+"                    <br>• Condition management\n"
+"                    <br>• Maintenance scheduling"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.actions.act_window,help:facilities_management.action_maintenance_history_calendar
+msgid "Track completed maintenance activities and analyze patterns."
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.actions.act_window,help:facilities_management.action_maintenance_resource_utilization
+msgid "Track resource utilization!"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.actions.act_window,help:facilities_management.action_asset_performance
+msgid "Track your first asset performance!"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.asset_threshold_form_view
+msgid "Tracking"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset_disposal__disposal_method__trade_in
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset_disposal_wizard__disposal_method__trade_in
+msgid "Trade-in"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_booking_template__booking_type__training
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_space_booking__booking_type__training
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_space_booking_search
+msgid "Training"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset__training_hours
+msgid "Training Hours"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model,name:facilities_management.model_stock_picking
+msgid "Transfer"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset__transparency_index
+msgid "Transparency Index"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_asset__transparency_index
+msgid "Transparency and reporting score"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__maintenance_resource_utilization__utilization_type__travel
+msgid "Travel Time"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_threshold__trigger_count
+msgid "Trigger Count"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.asset_threshold_form_view
+msgid "Trigger Now"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_escalation_log__trigger_time
+msgid "Trigger Time"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-javascript
+#: code:addons/facilities_management/static/src/xml/dashboard_templates.xml:0
+#: model_terms:ir.ui.view,arch_db:facilities_management.report_asset_maintenance_tabular_template
+#, python-format
+msgid "Type"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_asset_maintenance_schedule__activity_exception_decoration
+#: model:ir.model.fields,help:facilities_management.field_facilities_asset__activity_exception_decoration
+#: model:ir.model.fields,help:facilities_management.field_facilities_asset_category__activity_exception_decoration
+#: model:ir.model.fields,help:facilities_management.field_facilities_asset_depreciation__activity_exception_decoration
+#: model:ir.model.fields,help:facilities_management.field_facilities_asset_performance__activity_exception_decoration
+#: model:ir.model.fields,help:facilities_management.field_facilities_building__activity_exception_decoration
+#: model:ir.model.fields,help:facilities_management.field_facilities_facility__activity_exception_decoration
+#: model:ir.model.fields,help:facilities_management.field_facilities_floor__activity_exception_decoration
+#: model:ir.model.fields,help:facilities_management.field_facilities_room__activity_exception_decoration
+#: model:ir.model.fields,help:facilities_management.field_facilities_sla__activity_exception_decoration
+#: model:ir.model.fields,help:facilities_management.field_facilities_sla_dashboard__activity_exception_decoration
+#: model:ir.model.fields,help:facilities_management.field_facilities_space_booking__activity_exception_decoration
+#: model:ir.model.fields,help:facilities_management.field_maintenance_job_plan__activity_exception_decoration
+#: model:ir.model.fields,help:facilities_management.field_maintenance_kpi_dashboard__activity_exception_decoration
+#: model:ir.model.fields,help:facilities_management.field_maintenance_team__activity_exception_decoration
+#: model:ir.model.fields,help:facilities_management.field_maintenance_workorder__activity_exception_decoration
+#: model:ir.model.fields,help:facilities_management.field_maintenance_workorder_permit__activity_exception_decoration
+#: model:ir.model.fields,help:facilities_management.field_predictive_maintenance__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr ""
+
+#. module: facilities_management
+#. odoo-javascript
+#: code:addons/facilities_management/static/src/xml/iot_monitoring_templates.xml:0
+#: code:addons/facilities_management/static/src/xml/iot_monitoring_templates.xml:0
+#, python-format
+msgid "Type:"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_asset__sensor_data_url
+msgid "URL for real-time sensor data"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_asset_sensor__endpoint_url
+msgid "URL or endpoint for sensor data"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.maintenance_job_plan_view_form
+msgid "Unarchive"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset__state__maintenance
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset_scan_wizard__new_status__maintenance
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_room_equipment__status__maintenance
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facilities_asset_search
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_room_equipment_search
+msgid "Under Maintenance"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_facility__occupancy_status__under_renovation
+#: model_terms:ir.ui.view,arch_db:facilities_management.facility_search_view
+msgid "Under Renovation"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_asset_sensor__sensor_id
+msgid "Unique identifier for the IoT sensor"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_facility__code
+msgid "Unique identifier for the facility, often auto-generated."
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_scan_wizard__sensor_reading_unit
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_sensor__unit
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_sensor_data__unit
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_threshold__unit
+#: model_terms:ir.ui.view,arch_db:facilities_management.report_workorder_maintenance_template
+msgid "Unit"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_job_plan_task__uom_id
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder_part_line__uom_id
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder_task__uom_id
+msgid "Unit of Measure"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_asset_threshold__unit
+msgid "Unit of measurement"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_asset_sensor__unit
+#: model:ir.model.fields,help:facilities_management.field_facilities_asset_sensor_data__unit
+msgid "Unit of measurement (e.g., °C, %, Hz)"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset_depreciation__depreciation_method__units_of_production
+msgid "Units of Production"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-javascript
+#: code:addons/facilities_management/static/src/js/iot_monitoring.js:0
+#, python-format
+msgid "Unknown"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/facilities_import_wizard.py:0
+#, python-format
+msgid "Unsupported export format."
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/facilities_import_wizard.py:0
+#, python-format
+msgid "Unsupported export type."
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/facilities_import_wizard.py:0
+#, python-format
+msgid "Unsupported file type."
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/facilities_import_wizard.py:0
+#: code:addons/facilities_management/models/facilities_import_wizard.py:0
+#, python-format
+msgid "Unsupported import type."
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.report_workorder_maintenance_template
+msgid "UoM"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_room__upcoming_bookings
+msgid "Upcoming Bookings"
+msgstr ""
+
+#. module: facilities_management
+#: model:mail.template,subject:facilities_management.email_template_maintenance_reminder
+msgid "Upcoming Maintenance for ${object.asset_id.name}"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.actions.server,name:facilities_management.cron_update_asset_health_scores_ir_actions_server
+msgid "Update Asset Health Scores"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset_threshold__action_type__update_status
+msgid "Update Asset Status"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_import_wizard__update_existing
+msgid "Update Existing Records"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.actions.server,name:facilities_management.cron_update_sensor_readings_ir_actions_server
+msgid "Update IoT Sensor Readings"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-javascript
+#: code:addons/facilities_management/static/src/js/mobile_scanner.js:0
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset_scan_wizard__action_type__location_update
+#, python-format
+msgid "Update Location"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset_scan_wizard__action_type__status_update
+#: model_terms:ir.ui.view,arch_db:facilities_management.asset_threshold_search_view
+msgid "Update Status"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_import_wizard__update_existing
+msgid "Update existing records instead of creating new ones"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_import_wizard__updated_records
+msgid "Updated Records"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_booking_template__priority__urgent
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_space_booking__priority__urgent
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_space_booking_kanban
+msgid "Urgent"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facilities_room_form
+msgid "Usage & Notes"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_booking_template__usage_count
+msgid "Usage Count"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_booking_template_form
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_booking_template_kanban
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_booking_template_tree
+msgid "Use Template"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.actions.act_window,help:facilities_management.action_asset_scan_wizard
+msgid ""
+"Use barcode, QR code, RFID, or NFC to scan assets and perform quick actions."
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.actions.act_window,help:facilities_management.action_facilities_import_wizard
+msgid ""
+"Use this tool to bulk import facilities, buildings, floors, rooms, and assets from CSV or Excel files,\n"
+"                or export existing data for backup or analysis."
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_booking_template_kanban
+msgid "Used"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_depreciation__useful_life_years
+msgid "Useful Life (Years)"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-javascript
+#: code:addons/facilities_management/static/src/xml/dashboard_templates.xml:0
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_space_booking_search
+#, python-format
+msgid "User"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_asset__scanned_by_id
+msgid "User who last scanned the asset"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.facility_form_view
+msgid "Utilities & Services"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_room__room_type__utility
+msgid "Utility Room"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facility_asset_form
+msgid "Utilization"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_performance__utilization_percentage
+msgid "Utilization (%)"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset_threshold__threshold_type__utilization
+msgid "Utilization Rate"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_resource_utilization__utilization_type
+msgid "Utilization Type"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_facility__occupancy_status__vacant
+#: model_terms:ir.ui.view,arch_db:facilities_management.facility_search_view
+msgid "Vacant"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset__warranty_status__valid
+msgid "Valid"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_sensor_data__value
+msgid "Value"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_depreciation__value_after
+msgid "Value After Depreciation"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.ui.menu,name:facilities_management.menu_asset_value_analysis_item
+msgid "Value Analysis"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_depreciation__value_before
+msgid "Value Before Depreciation"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.asset_sensor_form_view
+msgid "Value Range"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.constraint,message:facilities_management.constraint_facilities_asset_depreciation_positive_value_before
+msgid "Value before depreciation must be positive!"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_asset_sensor__critical_threshold
+msgid "Value that triggers a critical alert"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_asset_sensor__warning_threshold
+msgid "Value that triggers a warning alert"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset_category__category_type__vehicle
+msgid "Vehicle"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset_threshold__work_order_priority__0
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_sla__priority_level__0
+#: model:ir.model.fields.selection,name:facilities_management.selection__maintenance_sla_analytics__priority__0
+#: model:ir.model.fields.selection,name:facilities_management.selection__maintenance_workorder__priority__0
+#: model:ir.model.fields.selection,name:facilities_management.selection__maintenance_workorder_sla__priority__0
+msgid "Very Low"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset_sensor__sensor_type__vibration
+#: model_terms:ir.ui.view,arch_db:facilities_management.asset_sensor_search_view
+msgid "Vibration"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset__vibration
+msgid "Vibration Level"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_room_equipment_kanban
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_room_equipment_tree
+msgid "View Bookings"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.facility_form_view
+msgid "View Hierarchy"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.asset_sensor_form_view
+msgid "View History"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facilities_sla_form
+msgid "View Work Orders"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.actions.act_window,help:facilities_management.action_maintenance_history_calendar
+msgid "View maintenance history"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__maintenance_resource_utilization__utilization_type__wait
+msgid "Waiting"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_building__building_type__warehouse
+msgid "Warehouse"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-javascript
+#: code:addons/facilities_management/static/src/xml/iot_monitoring_templates.xml:0
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset_sensor__status__warning
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_asset_sensor_data__status__warning
+#: model_terms:ir.ui.view,arch_db:facilities_management.asset_sensor_search_view
+#, python-format
+msgid "Warning"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_sensor__warning_threshold
+msgid "Warning Threshold"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder_sla__warning_threshold
+msgid "Warning Threshold (%)"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_sla__warning_threshold_hours
+msgid "Warning Threshold (Hours)"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.asset_sensor_form_view
+msgid "Warning Thresholds"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/sla.py:0
+#, python-format
+msgid "Warning and critical thresholds must be positive values."
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/workorder_sla.py:0
+#, python-format
+msgid "Warning threshold must be less than critical threshold"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/sla.py:0
+#, python-format
+msgid "Warning threshold must be less than critical threshold."
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facility_asset_form
+msgid "Warranty"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.ui.menu,name:facilities_management.menu_warranty_calendar_item
+msgid "Warranty Calendar"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset__warranty_expiration_date
+msgid "Warranty Expiration Date"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facilities_asset_search
+msgid "Warranty Expired"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facilities_asset_search
+msgid "Warranty Expiring Soon"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.report_asset_maintenance_tabular_template
+msgid "Warranty Expiry"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.actions.act_window,name:facilities_management.action_warranty_monitoring
+msgid "Warranty Monitoring"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.actions.act_window,name:facilities_management.action_warranty_overview
+msgid "Warranty Overview"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset__warranty_status
+#: model:ir.ui.menu,name:facilities_management.menu_warranty_monitoring_item
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facilities_asset_search
+msgid "Warranty Status"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_asset_kanban_dashboard
+msgid "Warranty:"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset__waste_management_score
+msgid "Waste Management Score"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset__water_consumption
+msgid "Water Consumption (L/day)"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_facility__water_meter_id
+msgid "Water Meter ID"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_asset_maintenance_schedule__website_message_ids
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset__website_message_ids
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_category__website_message_ids
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_depreciation__website_message_ids
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_performance__website_message_ids
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_building__website_message_ids
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_facility__website_message_ids
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_floor__website_message_ids
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_room__website_message_ids
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_sla__website_message_ids
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_sla_dashboard__website_message_ids
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_space_booking__website_message_ids
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_job_plan__website_message_ids
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_kpi_dashboard__website_message_ids
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_team__website_message_ids
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder__website_message_ids
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder_permit__website_message_ids
+#: model:ir.model.fields,field_description:facilities_management.field_predictive_maintenance__website_message_ids
+msgid "Website Messages"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_asset_maintenance_schedule__website_message_ids
+#: model:ir.model.fields,help:facilities_management.field_facilities_asset__website_message_ids
+#: model:ir.model.fields,help:facilities_management.field_facilities_asset_category__website_message_ids
+#: model:ir.model.fields,help:facilities_management.field_facilities_asset_depreciation__website_message_ids
+#: model:ir.model.fields,help:facilities_management.field_facilities_asset_performance__website_message_ids
+#: model:ir.model.fields,help:facilities_management.field_facilities_building__website_message_ids
+#: model:ir.model.fields,help:facilities_management.field_facilities_facility__website_message_ids
+#: model:ir.model.fields,help:facilities_management.field_facilities_floor__website_message_ids
+#: model:ir.model.fields,help:facilities_management.field_facilities_room__website_message_ids
+#: model:ir.model.fields,help:facilities_management.field_facilities_sla__website_message_ids
+#: model:ir.model.fields,help:facilities_management.field_facilities_sla_dashboard__website_message_ids
+#: model:ir.model.fields,help:facilities_management.field_facilities_space_booking__website_message_ids
+#: model:ir.model.fields,help:facilities_management.field_maintenance_job_plan__website_message_ids
+#: model:ir.model.fields,help:facilities_management.field_maintenance_kpi_dashboard__website_message_ids
+#: model:ir.model.fields,help:facilities_management.field_maintenance_team__website_message_ids
+#: model:ir.model.fields,help:facilities_management.field_maintenance_workorder__website_message_ids
+#: model:ir.model.fields,help:facilities_management.field_maintenance_workorder_permit__website_message_ids
+#: model:ir.model.fields,help:facilities_management.field_predictive_maintenance__website_message_ids
+msgid "Website communication history"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.sla_performance_report
+msgid "Week"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__asset_maintenance_schedule__interval_type__weekly
+#: model:ir.model.fields.selection,name:facilities_management.selection__predictive_maintenance__interval_type__weekly
+msgid "Week(s)"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__maintenance_job_plan_task__frequency_type__weekly
+#: model:ir.model.fields.selection,name:facilities_management.selection__maintenance_workorder_task__frequency_type__weekly
+msgid "Weekly"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_sla_dashboard__weekly_trend
+msgid "Weekly Trend"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.sla_performance_report
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facilities_sla_dashboard_form
+msgid "Weekly Trend Analysis"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facilities_sla_dashboard_form
+msgid "Weekly Trend Data"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facilities_sla_dashboard_form
+msgid "Weekly Trend Summary"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.actions.act_window,help:facilities_management.action_asset_dashboard
+msgid "Welcome to the Asset Dashboard!"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_room__wheelchair_accessible
+msgid "Wheelchair Accessible"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_asset_threshold__last_triggered
+msgid "When this threshold was last exceeded"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_space_booking_search
+msgid "With External Guests"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.monthly_building_report_pdf
+msgid "Word"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.monthly_building_report_pdf
+msgid "Wordcloud"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder__work_done
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_workorder_form
+msgid "Work Done"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.report_workorder_maintenance_template
+msgid "Work Done Notes"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_assign_technician_wizard__workorder_id
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_escalation_log__workorder_id
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_kpi_dashboard__workorder_id
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_resource_utilization__workorder_id
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_sla_analytics__workorder_id
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder__name
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder_assignment__workorder_id
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder_part_line__workorder_id
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder_permit__workorder_id
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder_section__workorder_id
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder_task__workorder_id
+msgid "Work Order"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_workorder_mobile_minimal_form
+msgid "Work Order (Minimal Mobile)"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_workorder_form
+msgid "Work Order Details"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model,name:facilities_management.model_maintenance_workorder_permit
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_workorder_permit_form
+msgid "Work Order Permit"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.actions.act_window,name:facilities_management.action_workorder_permit
+#: model:ir.ui.menu,name:facilities_management.menu_workorder_permit
+msgid "Work Order Permits"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_threshold__work_order_priority
+msgid "Work Order Priority"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_workorder_form
+msgid "Work Order Reference"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model,name:facilities_management.model_maintenance_workorder_sla
+msgid "Work Order SLA Configuration"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_maintenance_workorder_enhanced_search
+msgid "Work Order Search"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model,name:facilities_management.model_maintenance_workorder_section
+msgid "Work Order Section"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facilities_sla_form
+msgid "Work Order Statistics"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder__workorder_task_ids
+msgid "Work Order Tasks"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_threshold__work_order_type
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder__work_order_type
+#: model:ir.model.fields,field_description:facilities_management.field_maintenance_workorder_sla__work_order_type
+msgid "Work Order Type"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_asset_maintenance_schedule__workorder_count
+#: model:ir.model.fields,field_description:facilities_management.field_predictive_maintenance__workorder_count
+#: model:ir.ui.menu,name:facilities_management.menu_maintenance_workorders
+#: model_terms:ir.ui.view,arch_db:facilities_management.monthly_building_report_pdf
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facilities_sla_dashboard_form
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_maintenance_kpi_dashboard_form
+msgid "Work Orders"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.actions.act_window,name:facilities_management.action_maintenance_workorder_mobile_list
+msgid "Work Orders (Mobile List)"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_workorder_mobile_list
+msgid "Work Orders (Mobile Minimal)"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.ui.menu,name:facilities_management.menu_maintenance_workorder_mobile
+msgid "Work Orders (Mobile)"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.monthly_building_report_pdf
+msgid "Work Orders by Day"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.monthly_building_report_pdf
+msgid "Work Orders by Priority"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.monthly_building_report_pdf
+msgid "Work Orders by Type"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/asset_maintenance_schedule.py:0
+#, python-format
+msgid "Work order %s has been generated."
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/maintenance_workorder.py:0
+#, python-format
+msgid "Work order approved by manager %s"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/maintenance_workorder.py:0
+#, python-format
+msgid "Work order approved by supervisor %s"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/maintenance_workorder.py:0
+#, python-format
+msgid ""
+"Work order automatically escalated due to SLA breach. Escalation level: %s"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/maintenance_workorder.py:0
+#, python-format
+msgid "Work order cancelled by %s"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/maintenance_workorder.py:0
+#, python-format
+msgid "Work order completed by %s"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/maintenance_workorder.py:0
+#, python-format
+msgid "Work order fully approved by %s"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/maintenance_workorder.py:0
+#, python-format
+msgid "Work order manually escalated by %s"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/maintenance_workorder.py:0
+#, python-format
+msgid "Work order marked as completed"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/maintenance_workorder.py:0
+#, python-format
+msgid "Work order must be approved before starting progress."
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/maintenance_workorder.py:0
+#, python-format
+msgid "Work order must be in progress to mark as completed."
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/maintenance_workorder.py:0
+#, python-format
+msgid "Work order must be in progress to mark as done."
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/maintenance_workorder.py:0
+#, python-format
+msgid "Work order refused by %s"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/maintenance_workorder.py:0
+#, python-format
+msgid "Work order reset to draft by %s"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/maintenance_workorder.py:0
+#, python-format
+msgid "Work order started by %s"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/maintenance_workorder.py:0
+#, python-format
+msgid "Work order submitted for approval by %s"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_technician_performance_kanban
+msgid "Workload:"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.actions.report,name:facilities_management.action_report_workorder_maintenance
+#: model_terms:ir.ui.view,arch_db:facilities_management.report_workorder_maintenance_template
+msgid "Workorder Maintenance Report"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.report_workorder_maintenance_template
+msgid "Workorder Tasks &amp; Instructions"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_booking_template__booking_type__workshop
+#: model:ir.model.fields.selection,name:facilities_management.selection__facilities_space_booking__booking_type__workshop
+msgid "Workshop"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_asset__floor_plan_location
+msgid "X,Y coordinates on floor plan"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_facility__year_built
+msgid "Year Built"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_building__year_constructed
+msgid "Year Constructed"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__asset_maintenance_schedule__interval_type__yearly
+#: model:ir.model.fields.selection,name:facilities_management.selection__predictive_maintenance__interval_type__yearly
+msgid "Year(s)"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_asset_depreciation__is_year_end
+msgid "Year-End Depreciation"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields.selection,name:facilities_management.selection__maintenance_job_plan_task__frequency_type__yearly
+#: model:ir.model.fields.selection,name:facilities_management.selection__maintenance_workorder_task__frequency_type__yearly
+msgid "Yearly"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_booking_reject_wizard_form
+msgid ""
+"You are about to reject the booking. Please provide a reason for the "
+"rejection."
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/maintenance_workorder_task.py:0
+#, python-format
+msgid "You cannot add tasks to a work order that is not in draft."
+msgstr ""
+
+#. module: facilities_management
+#. odoo-python
+#: code:addons/facilities_management/models/maintenance_workorder_task.py:0
+#, python-format
+msgid "You cannot remove tasks from a work order that is not in draft."
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,field_description:facilities_management.field_facilities_facility__zip_code
+msgid "Zip Code"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-javascript
+#: code:addons/facilities_management/static/src/xml/iot_monitoring_templates.xml:0
+#: code:addons/facilities_management/static/src/xml/iot_monitoring_templates.xml:0
+#, python-format
+msgid "all"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_space_booking_kanban
+msgid "attendees"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-javascript
+#: code:addons/facilities_management/static/src/xml/mobile_scanner_templates.xml:0
+#, python-format
+msgid "barcode"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-javascript
+#: code:addons/facilities_management/static/src/xml/dashboard_templates.xml:0
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_room_equipment_kanban
+#, python-format
+msgid "bookings"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-javascript
+#: code:addons/facilities_management/static/src/xml/mobile_scanner_templates.xml:0
+#, python-format
+msgid "camera"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_space_booking_kanban
+msgid "capacity"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-javascript
+#: code:addons/facilities_management/static/src/xml/iot_monitoring_templates.xml:0
+#, python-format
+msgid "critical"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.maintenance_job_plan_view_form
+msgid "e.g., FCU Monthly Maintenance"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_space_booking_form
+msgid "e.g., FREQ=WEEKLY;BYDAY=MO,WE,FR"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.sla_performance_report
+msgid "hours"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-javascript
+#: code:addons/facilities_management/static/src/xml/iot_monitoring_templates.xml:0
+#, python-format
+msgid "humidity"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model.fields,help:facilities_management.field_facilities_space_booking__recurrence_rule
+msgid "iCal-style recurrence rule (e.g., FREQ=WEEKLY;BYDAY=MO,WE,FR)"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facility_asset_form
+msgid "latitude,longitude"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facilities_sla_form
+msgid "monday,tuesday,wednesday,thursday,friday"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-javascript
+#: code:addons/facilities_management/static/src/xml/iot_monitoring_templates.xml:0
+#, python-format
+msgid "motion"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-javascript
+#: code:addons/facilities_management/static/src/xml/iot_monitoring_templates.xml:0
+#, python-format
+msgid "normal"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_booking_template_kanban
+msgid "people"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-javascript
+#: code:addons/facilities_management/static/src/xml/iot_monitoring_templates.xml:0
+#, python-format
+msgid "pressure"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-javascript
+#: code:addons/facilities_management/static/src/xml/mobile_scanner_templates.xml:0
+#, python-format
+msgid "qr"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-javascript
+#: code:addons/facilities_management/static/src/xml/iot_monitoring_templates.xml:0
+#, python-format
+msgid "temperature"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_booking_template_kanban
+msgid "times"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.sla_performance_report
+msgid "to"
+msgstr ""
+
+#. module: facilities_management
+#. odoo-javascript
+#: code:addons/facilities_management/static/src/xml/iot_monitoring_templates.xml:0
+#, python-format
+msgid "warning"
+msgstr ""
+
+#. module: facilities_management
+#: model:ir.model,name:facilities_management.model_ir_websocket
+msgid "websocket message handling"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.view_facility_asset_form
+msgid "x,y coordinates"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.report_workorder_maintenance_template
+msgid "⏳ Draft"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.report_workorder_maintenance_template
+msgid "⚡ In Progress"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.report_workorder_maintenance_template
+msgid "✔ Completed"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.report_asset_maintenance_tabular_template
+msgid "✔ Valid"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.report_asset_maintenance_tabular_template
+msgid "✖ Expired"
+msgstr ""
+
+#. module: facilities_management
+#: model_terms:ir.ui.view,arch_db:facilities_management.report_workorder_maintenance_template
+msgid "❌ Cancelled"
+msgstr ""
